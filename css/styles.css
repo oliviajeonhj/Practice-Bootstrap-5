@@ -659,14 +659,14 @@ progress {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1340px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1800px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 1720px;
   }
 }
 .row {
@@ -11423,7 +11423,8 @@ section.cta {
   background-image: url("../img/ad_1.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-color: #fec106;
 }
 section.cta .cta-content {
   position: relative;
@@ -11452,7 +11453,7 @@ section.cta:before {
 .features-device-mockup .circle {
   position: absolute;
   left: 0;
-  fill: url(#circleGradient);
+  fill: #fec106;
   width: 70%;
   display: none;
 }
@@ -11467,7 +11468,7 @@ section.cta:before {
   height: 1rem;
   width: 1rem;
   transform: rotate(10deg);
-  fill: #52332d;
+  fill: #fec106;
   top: 15%;
   right: 10%;
 }
@@ -11475,7 +11476,7 @@ section.cta:before {
   position: absolute;
   height: 0.75rem;
   width: 0.75rem;
-  fill: #52332d;
+  fill: #fec106;
   bottom: 15%;
   left: 10%;
 }
